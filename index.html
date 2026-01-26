@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#4B1E6D">
+    <title>Biblioteca Maçônica - Catálogo Digital</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="logo-loja.png" alt="ARLS União, Paz & Harmonia" class="logo-img me-3">
+                <div class="brand-text">
+                    <div class="brand-title">Biblioteca Digital</div>
+                    <div class="brand-subtitle">ARLS União, Paz & Harmonia Nº 4877</div>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">
+                            <i class="bi bi-house-door me-1"></i>Início
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#livros">
+                            <i class="bi bi-collection me-1"></i>Catálogo
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">
+                            <i class="bi bi-info-circle me-1"></i>Sobre
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">
+                            <i class="bi bi-envelope me-1"></i>Contato
+                        </a>
+                    </li>
+                </ul>
+                <div class="d-flex ms-lg-3">
+                    <button class="btn btn-sm btn-outline-light" id="themeToggle">
+                        <i class="bi bi-moon-stars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6 text-white">
+                    <h1 class="display-2 fw-semibold mb-3 animate-fade-in">
+                        Biblioteca Digital
+                    </h1>
+                    <p class="hero-subtitle mb-5">
+                        Uma coleção cuidadosamente curada de obras maçônicas.<br>
+                        Explore o conhecimento e a sabedoria ancestral.
+                    </p>
+                    <div class="d-flex gap-3 flex-wrap">
+                        <a href="#livros" class="btn btn-warning btn-lg px-4 shadow">
+                            <i class="bi bi-search me-2"></i>Explorar Catálogo
+                        </a>
+                        <a href="#about" class="btn btn-outline-light btn-lg px-4">
+                            <i class="bi bi-info-circle me-2"></i>Saiba Mais
+                        </a>
+                    </div>
+                    <div class="mt-5 d-flex gap-4 text-white">
+                        <div>
+                            <h3 class="fw-bold mb-0" id="totalLivros">-</h3>
+                            <small class="text-white-50">Livros Disponíveis</small>
+                        </div>
+                        <div>
+                            <h3 class="fw-bold mb-0" id="totalAutores">-</h3>
+                            <small class="text-white-50">Autores</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <div class="hero-image-container">
+                        <i class="bi bi-book text-white opacity-25" style="font-size: 25rem;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#livros" class="text-white">
+                <i class="bi bi-chevron-down fs-1 animate-bounce"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Filtros e Busca -->
+    <section class="py-4 bg-light border-bottom sticky-filters">
+        <div class="container">
+            <div class="row g-3 align-items-center">
+                <div class="col-lg-5">
+                    <div class="input-group input-group-lg shadow-sm">
+                        <span class="input-group-text bg-white border-end-0">
+                            <i class="bi bi-search text-muted"></i>
+                        </span>
+                        <input type="text" id="searchInput" class="form-control border-start-0 ps-0"
+                            placeholder="Buscar por título, autor ou descrição...">
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <select id="authorFilter" class="form-select form-select-lg shadow-sm">
+                        <option value="">Todos os Autores</option>
+                    </select>
+                </div>
+                <div class="col-lg-2">
+                    <select id="sortFilter" class="form-select form-select-lg shadow-sm">
+                        <option value="">↕️ Ordenar</option>
+                        <option value="titulo">Título (A-Z)</option>
+                        <option value="autor">Autor (A-Z)</option>
+                    </select>
+                </div>
+                <div class="col-lg-2 text-end">
+                    <span class="badge bg-primary fs-6 px-3 py-2" id="resultCount">0 livros</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catálogo de Livros -->
+    <section id="livros" class="py-5 bg-white">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold mb-3">Catálogo Completo</h2>
+                <p class="text-muted fs-5">Navegue por nossa coleção de obras maçônicas</p>
+            </div>
+            <div class="row g-4" id="productGrid">
+                <div class="col-12 text-center py-5">
+                    <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                        <span class="visually-hidden">Carregando...</span>
+                    </div>
+                    <p class="mt-3 text-muted fs-5">Carregando catálogo...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="display-6 fw-bold mb-4">Sobre a Biblioteca</h2>
+                    <p class="lead mb-4">
+                        Esta biblioteca digital foi criada para preservar e compartilhar o conhecimento maçônico,
+                        reunindo obras clássicas e contemporâneas de autores renomados.
+                    </p>
+                    <div class="row g-4">
+                        <div class="col-6">
+                            <div class="d-flex align-items-start">
+                                <i class="bi bi-check-circle-fill text-success fs-3 me-3"></i>
+                                <div>
+                                    <h5 class="mb-1">Catálogo Completo</h5>
+                                    <p class="text-muted mb-0">Explore toda a coleção</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex align-items-start">
+                                <i class="bi bi-check-circle-fill text-success fs-3 me-3"></i>
+                                <div>
+                                    <h5 class="mb-1">Visualização Detalhada</h5>
+                                    <p class="text-muted mb-0">Veja capas e detalhes</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex align-items-start">
+                                <i class="bi bi-check-circle-fill text-success fs-3 me-3"></i>
+                                <div>
+                                    <h5 class="mb-1">Sempre Atualizado</h5>
+                                    <p class="text-muted mb-0">Novas obras adicionadas</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex align-items-start">
+                                <i class="bi bi-check-circle-fill text-success fs-3 me-3"></i>
+                                <div>
+                                    <h5 class="mb-1">Sem Cadastro</h5>
+                                    <p class="text-muted mb-0">Acesso direto e livre</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow-lg">
+                        <div class="card-body p-5 text-center">
+                            <i class="bi bi-book-half text-primary mb-4" style="font-size: 5rem;"></i>
+                            <h4 class="mb-3">Conhecimento Universal</h4>
+                            <p class="text-muted">
+                                "A verdadeira Maçonaria é ética e filosofia,
+                                é o esforço constante para melhorar a si mesmo e à humanidade."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="py-5 bg-white">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-6 fw-bold mb-3">Entre em Contato</h2>
+                <p class="text-muted fs-5">Tem alguma sugestão ou dúvida? Fale conosco!</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card border-0 shadow-lg">
+                        <div class="card-body p-5">
+                            <form id="contactForm">
+                                <div class="row g-4">
+                                    <div class="col-md-6">
+                                        <label class="form-label fw-semibold">
+                                            <i class="bi bi-person me-2"></i>Nome Completo
+                                        </label>
+                                        <input type="text" class="form-control form-control-lg" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label fw-semibold">
+                                            <i class="bi bi-envelope me-2"></i>Email
+                                        </label>
+                                        <input type="email" class="form-control form-control-lg" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label fw-semibold">
+                                            <i class="bi bi-chat-dots me-2"></i>Mensagem
+                                        </label>
+                                        <textarea class="form-control form-control-lg" rows="5" required
+                                            placeholder="Digite sua mensagem aqui..."></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary btn-lg w-100 shadow">
+                                            <i class="bi bi-send me-2"></i>Enviar Mensagem
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h5 class="fw-bold mb-3">
+                        <i class="bi bi-book-fill me-2"></i>Biblioteca Maçônica
+                    </h5>
+                    <p class="text-white-50">
+                        Preservando e compartilhando o conhecimento maçônico através da tecnologia.
+                    </p>
+                    <div class="d-flex gap-3 mt-3">
+                        <a href="#" class="btn btn-outline-light btn-sm">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="#" class="btn btn-outline-light btn-sm">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="#" class="btn btn-outline-light btn-sm">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                        <a href="#" class="btn btn-outline-light btn-sm">
+                            <i class="bi bi-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-6">
+                    <h6 class="fw-semibold mb-3">Links Rápidos</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#home" class="text-white-50 text-decoration-none">Início</a></li>
+                        <li class="mb-2"><a href="#livros" class="text-white-50 text-decoration-none">Catálogo</a></li>
+                        <li class="mb-2"><a href="#about" class="text-white-50 text-decoration-none">Sobre</a></li>
+                        <li class="mb-2"><a href="#contato" class="text-white-50 text-decoration-none">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <h6 class="fw-semibold mb-3">Recursos</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Como usar</a></li>
+                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Perguntas Frequentes</a>
+                        </li>
+                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Política de
+                                Privacidade</a></li>
+                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Termos de Uso</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h6 class="fw-semibold mb-3">Newsletter</h6>
+                    <p class="text-white-50 small">Receba novidades sobre novas obras adicionadas.</p>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Seu email">
+                        <button class="btn btn-warning" type="button">
+                            <i class="bi bi-send"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4 border-secondary">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0 text-white-50">
+                        &copy; 2026 Biblioteca Maçônica. Todos os direitos reservados.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0 text-white-50">
+                        Feito com <i class="bi bi-heart-fill text-danger"></i> para a comunidade maçônica
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal de Detalhes do Livro -->
+    <div class="modal fade" id="bookModal" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content border-0 shadow-lg">
+                <div class="modal-header border-0 pb-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <div class="row g-0">
+                        <div class="col-md-5">
+                            <img id="modalCapa" src="" class="img-fluid w-100 h-100" style="object-fit: cover;"
+                                alt="Capa do livro">
+                        </div>
+                        <div class="col-md-7 p-4">
+                            <h3 id="modalTitulo" class="fw-bold mb-3"></h3>
+                            <div class="mb-3">
+                                <span class="badge bg-primary me-2">
+                                    <i class="bi bi-person me-1"></i>
+                                    <span id="modalAutor"></span>
+                                </span>
+                            </div>
+                            <div id="modalDescricao" class="text-muted mb-4"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

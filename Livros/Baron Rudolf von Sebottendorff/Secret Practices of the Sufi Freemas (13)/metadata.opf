@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">13</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">9a244c46-798c-46d9-b9dc-8ab179253c5d</dc:identifier>
+        <dc:title>Secret Practices of the Sufi Freemasons: The Islamic Teachings at the Heart of Alchemy</dc:title>
+        <dc:creator opf:file-as="Sebottendorff, Baron Rudolf von &amp; Flowers, Stephen E. Ph.d." opf:role="aut">Baron Rudolf von Sebottendorff</dc:creator>
+        <dc:creator opf:file-as="Sebottendorff, Baron Rudolf von &amp; Flowers, Stephen E. Ph.d." opf:role="aut">Stephen E. Flowers Ph.d.</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (8.16.2) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2013-01-16T23:00:00+00:00</dc:date>
+        <dc:description>&lt;div&gt;&lt;p&gt;Reveals the secret spiritual exercises of the Bektashi Order of Sufis   &lt;/p&gt;
+&lt;p&gt;• Shows how this order, also known as Oriental Freemasonry, preserves the ancient spiritual doctrines forgotten by modern Freemasonry   &lt;/p&gt;
+&lt;p&gt;• Explains how to transform the soul into the alchemical Magnum Opus by combining Masonic grips and the abbreviated letters of the Qur’an   &lt;/p&gt;
+&lt;p&gt;• Includes a detailed biography of Baron von Sebottendorff   &lt;/p&gt;
+&lt;p&gt;Originally published in Germany in 1924, this rare book by Baron Rudolf von Sebottendorff reveals the secret spiritual exercises of the Bektashi Order of Sufis as well as how this order, also known as Oriental Freemasonry, preserves the ancient spiritual doctrines forgotten by modern Freemasonry. Sebottendorff explains how the mysterious abbreviated letters found in the Qur’an represent formulas for perfecting the spirit of the individual. When combined with Masonic hand signs and grips and conducted accordingly to a precise schedule, these formulas incorporate spiritual power into the body and transform the soul from its base state into a noble, godlike state: the Magnum Opus of the medieval alchemists.   &lt;/p&gt;
+&lt;p&gt;Laying out the complete program of spiritual exercises, Sebottendorff explains each abbreviated word-formula in the Qur’an, the hand gestures that go with them, and the exact order and duration for each exercise. Including a detailed biography of Sebottendorff and an examination of alchemy’s Islamic heritage, this book shows how the traditions of Oriental Freemasonry can ennoble the self and lead to higher knowledge.&lt;/p&gt;
+&lt;p&gt;**&lt;/p&gt;&lt;/div&gt;</dc:description>
+        <dc:publisher>Inner Traditions</dc:publisher>
+        <dc:identifier opf:scheme="AMAZON">1594774684</dc:identifier>
+        <dc:identifier opf:scheme="ISBN">9781594774683</dc:identifier>
+        <dc:language>eng</dc:language>
+        <meta name="calibre:rating" content="8"/>
+        <meta name="calibre:timestamp" content="2025-12-28T20:17:28.053017+00:00"/>
+        <meta name="calibre:title_sort" content="Secret Practices of the Sufi Freemasons: The Islamic Teachings at the Heart of Alchemy"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Capa" href="cover.jpg"/>
+    </guide>
+</package>

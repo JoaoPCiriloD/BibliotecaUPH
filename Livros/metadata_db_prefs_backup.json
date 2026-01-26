@@ -1,0 +1,917 @@
+{
+  "bools_are_tristate": true,
+  "user_categories": {},
+  "saved_searches": {},
+  "grouped_search_terms": {},
+  "tag_browser_hidden_categories": [],
+  "tag_browser_category_order": [
+    "authors",
+    "languages",
+    "series",
+    "formats",
+    "publisher",
+    "rating",
+    "news",
+    "tags",
+    "identifiers"
+  ],
+  "library_view books view state": {
+    "hidden_columns": [
+      "id",
+      "formats",
+      "path",
+      "last_modified",
+      "languages"
+    ],
+    "last_modified_injected": true,
+    "languages_injected": true,
+    "formats_injected": true,
+    "id_injected": true,
+    "path_injected": true,
+    "sort_history": [
+      [
+        "title",
+        true
+      ],
+      [
+        "authors",
+        true
+      ],
+      [
+        "title",
+        true
+      ],
+      [
+        "authors",
+        true
+      ],
+      [
+        "title",
+        true
+      ],
+      [
+        "authors",
+        false
+      ],
+      [
+        "timestamp",
+        false
+      ]
+    ],
+    "column_positions": {
+      "ondevice": 0,
+      "id": 1,
+      "title": 2,
+      "authors": 3,
+      "timestamp": 4,
+      "size": 5,
+      "rating": 6,
+      "tags": 7,
+      "series": 8,
+      "publisher": 9,
+      "formats": 10,
+      "path": 11,
+      "pubdate": 12,
+      "last_modified": 13,
+      "languages": 14
+    },
+    "column_sizes": {
+      "id": 0,
+      "title": 555,
+      "authors": 326,
+      "timestamp": 68,
+      "size": 106,
+      "rating": 82,
+      "tags": 78,
+      "series": 53,
+      "publisher": 67,
+      "formats": 0,
+      "path": 0,
+      "pubdate": 83,
+      "last_modified": 0,
+      "languages": 0
+    },
+    "column_alignment": {
+      "pubdate": "center",
+      "size": "center",
+      "timestamp": "center"
+    }
+  },
+  "books view split pane state": {
+    "column_positions": {
+      "authors": 3,
+      "formats": 10,
+      "id": 1,
+      "languages": 14,
+      "last_modified": 13,
+      "ondevice": 0,
+      "path": 11,
+      "pubdate": 12,
+      "publisher": 9,
+      "rating": 6,
+      "series": 8,
+      "size": 5,
+      "tags": 7,
+      "timestamp": 4,
+      "title": 2
+    },
+    "column_sizes": {
+      "authors": 100,
+      "formats": 100,
+      "id": 100,
+      "languages": 100,
+      "last_modified": 100,
+      "path": 100,
+      "pubdate": 100,
+      "publisher": 100,
+      "rating": 100,
+      "series": 100,
+      "size": 100,
+      "tags": 100,
+      "timestamp": 100,
+      "title": 100
+    },
+    "hidden_columns": []
+  },
+  "field_metadata": {
+    "au_map": {
+      "column": null,
+      "datatype": "text",
+      "display": {},
+      "is_category": false,
+      "is_csp": false,
+      "is_custom": false,
+      "is_editable": true,
+      "is_multiple": {
+        "cache_to_list": ",",
+        "list_to_ui": null,
+        "ui_to_list": null
+      },
+      "kind": "field",
+      "label": "au_map",
+      "name": null,
+      "rec_index": 18,
+      "search_terms": [],
+      "table": null
+    },
+    "author_sort": {
+      "column": null,
+      "datatype": "text",
+      "display": {},
+      "is_category": false,
+      "is_csp": false,
+      "is_custom": false,
+      "is_editable": true,
+      "is_multiple": {},
+      "kind": "field",
+      "label": "author_sort",
+      "name": "Autor ordenado",
+      "rec_index": 12,
+      "search_terms": [
+        "author_sort"
+      ],
+      "table": null
+    },
+    "authors": {
+      "category_sort": "sort",
+      "column": "name",
+      "datatype": "text",
+      "display": {},
+      "is_category": true,
+      "is_csp": false,
+      "is_custom": false,
+      "is_editable": true,
+      "is_multiple": {
+        "cache_to_list": ",",
+        "list_to_ui": " & ",
+        "ui_to_list": "&"
+      },
+      "kind": "field",
+      "label": "authors",
+      "link_column": "author",
+      "name": "Autores",
+      "rec_index": 2,
+      "search_terms": [
+        "authors",
+        "author"
+      ],
+      "table": "authors"
+    },
+    "comments": {
+      "column": null,
+      "datatype": "text",
+      "display": {},
+      "is_category": false,
+      "is_csp": false,
+      "is_custom": false,
+      "is_editable": true,
+      "is_multiple": {},
+      "kind": "field",
+      "label": "comments",
+      "name": "Coment\u00e1rios",
+      "rec_index": 7,
+      "search_terms": [
+        "comments",
+        "comment"
+      ],
+      "table": null
+    },
+    "cover": {
+      "column": null,
+      "datatype": "int",
+      "display": {},
+      "is_category": false,
+      "is_csp": false,
+      "is_custom": false,
+      "is_editable": true,
+      "is_multiple": {},
+      "kind": "field",
+      "label": "cover",
+      "name": "Capa",
+      "rec_index": 17,
+      "search_terms": [
+        "cover"
+      ],
+      "table": null
+    },
+    "formats": {
+      "column": null,
+      "datatype": "text",
+      "display": {},
+      "is_category": true,
+      "is_csp": false,
+      "is_custom": false,
+      "is_editable": true,
+      "is_multiple": {
+        "cache_to_list": ",",
+        "list_to_ui": ", ",
+        "ui_to_list": ","
+      },
+      "kind": "field",
+      "label": "formats",
+      "name": "Formatos",
+      "rec_index": 13,
+      "search_terms": [
+        "formats",
+        "format"
+      ],
+      "table": null
+    },
+    "id": {
+      "column": null,
+      "datatype": "int",
+      "display": {},
+      "is_category": false,
+      "is_csp": false,
+      "is_custom": false,
+      "is_editable": true,
+      "is_multiple": {},
+      "kind": "field",
+      "label": "id",
+      "name": "Id",
+      "rec_index": 0,
+      "search_terms": [
+        "id"
+      ],
+      "table": null
+    },
+    "identifiers": {
+      "column": null,
+      "datatype": "text",
+      "display": {},
+      "is_category": true,
+      "is_csp": true,
+      "is_custom": false,
+      "is_editable": true,
+      "is_multiple": {
+        "cache_to_list": ",",
+        "list_to_ui": ", ",
+        "ui_to_list": ","
+      },
+      "kind": "field",
+      "label": "identifiers",
+      "name": "Identificadores",
+      "rec_index": 20,
+      "search_terms": [
+        "identifiers",
+        "identifier",
+        "isbn"
+      ],
+      "table": null
+    },
+    "in_tag_browser": {
+      "column": null,
+      "datatype": "text",
+      "display": {},
+      "is_category": false,
+      "is_csp": false,
+      "is_custom": false,
+      "is_editable": true,
+      "is_multiple": {},
+      "kind": "field",
+      "label": "in_tag_browser",
+      "name": null,
+      "rec_index": 25,
+      "search_terms": [
+        "in_tag_browser"
+      ],
+      "table": null
+    },
+    "languages": {
+      "category_sort": "lang_code",
+      "column": "lang_code",
+      "datatype": "text",
+      "display": {},
+      "is_category": true,
+      "is_csp": false,
+      "is_custom": false,
+      "is_editable": true,
+      "is_multiple": {
+        "cache_to_list": ",",
+        "list_to_ui": ", ",
+        "ui_to_list": ","
+      },
+      "kind": "field",
+      "label": "languages",
+      "link_column": "lang_code",
+      "name": "Idiomas",
+      "rec_index": 21,
+      "search_terms": [
+        "languages",
+        "language"
+      ],
+      "table": "languages"
+    },
+    "last_modified": {
+      "column": null,
+      "datatype": "datetime",
+      "display": {
+        "date_format": "dd MMM yyyy"
+      },
+      "is_category": false,
+      "is_csp": false,
+      "is_custom": false,
+      "is_editable": true,
+      "is_multiple": {},
+      "kind": "field",
+      "label": "last_modified",
+      "name": "Modificado",
+      "rec_index": 19,
+      "search_terms": [
+        "last_modified"
+      ],
+      "table": null
+    },
+    "marked": {
+      "column": null,
+      "datatype": "text",
+      "display": {},
+      "is_category": false,
+      "is_csp": false,
+      "is_custom": false,
+      "is_editable": true,
+      "is_multiple": {},
+      "kind": "field",
+      "label": "marked",
+      "name": null,
+      "rec_index": 23,
+      "search_terms": [
+        "marked"
+      ],
+      "table": null
+    },
+    "news": {
+      "category_sort": "name",
+      "column": "name",
+      "datatype": null,
+      "display": {},
+      "is_category": true,
+      "is_csp": false,
+      "is_custom": false,
+      "is_editable": true,
+      "is_multiple": {},
+      "kind": "category",
+      "label": "news",
+      "name": "Not\u00edcias",
+      "search_terms": [],
+      "table": "news"
+    },
+    "ondevice": {
+      "column": null,
+      "datatype": "text",
+      "display": {},
+      "is_category": false,
+      "is_csp": false,
+      "is_custom": false,
+      "is_editable": true,
+      "is_multiple": {},
+      "kind": "field",
+      "label": "ondevice",
+      "name": "No dispositivo",
+      "rec_index": 22,
+      "search_terms": [
+        "ondevice"
+      ],
+      "table": null
+    },
+    "path": {
+      "column": null,
+      "datatype": "text",
+      "display": {},
+      "is_category": false,
+      "is_csp": false,
+      "is_custom": false,
+      "is_editable": true,
+      "is_multiple": {},
+      "kind": "field",
+      "label": "path",
+      "name": "Caminho",
+      "rec_index": 14,
+      "search_terms": [],
+      "table": null
+    },
+    "pubdate": {
+      "column": null,
+      "datatype": "datetime",
+      "display": {
+        "date_format": "MMM yyyy"
+      },
+      "is_category": false,
+      "is_csp": false,
+      "is_custom": false,
+      "is_editable": true,
+      "is_multiple": {},
+      "kind": "field",
+      "label": "pubdate",
+      "name": "Publicado",
+      "rec_index": 15,
+      "search_terms": [
+        "pubdate"
+      ],
+      "table": null
+    },
+    "publisher": {
+      "category_sort": "name",
+      "column": "name",
+      "datatype": "text",
+      "display": {},
+      "is_category": true,
+      "is_csp": false,
+      "is_custom": false,
+      "is_editable": true,
+      "is_multiple": {},
+      "kind": "field",
+      "label": "publisher",
+      "link_column": "publisher",
+      "name": "Editora",
+      "rec_index": 9,
+      "search_terms": [
+        "publisher"
+      ],
+      "table": "publishers"
+    },
+    "rating": {
+      "category_sort": "rating",
+      "column": "rating",
+      "datatype": "rating",
+      "display": {},
+      "is_category": true,
+      "is_csp": false,
+      "is_custom": false,
+      "is_editable": true,
+      "is_multiple": {},
+      "kind": "field",
+      "label": "rating",
+      "link_column": "rating",
+      "name": "Avalia\u00e7\u00e3o",
+      "rec_index": 5,
+      "search_terms": [
+        "rating"
+      ],
+      "table": "ratings"
+    },
+    "series": {
+      "category_sort": "(title_sort(name))",
+      "column": "name",
+      "datatype": "series",
+      "display": {},
+      "is_category": true,
+      "is_csp": false,
+      "is_custom": false,
+      "is_editable": true,
+      "is_multiple": {},
+      "kind": "field",
+      "label": "series",
+      "link_column": "series",
+      "name": "S\u00e9rie",
+      "rec_index": 8,
+      "search_terms": [
+        "series"
+      ],
+      "table": "series"
+    },
+    "series_index": {
+      "column": null,
+      "datatype": "float",
+      "display": {},
+      "is_category": false,
+      "is_csp": false,
+      "is_custom": false,
+      "is_editable": true,
+      "is_multiple": {},
+      "kind": "field",
+      "label": "series_index",
+      "name": null,
+      "rec_index": 10,
+      "search_terms": [
+        "series_index"
+      ],
+      "table": null
+    },
+    "series_sort": {
+      "column": null,
+      "datatype": "text",
+      "display": {},
+      "is_category": false,
+      "is_csp": false,
+      "is_custom": false,
+      "is_editable": true,
+      "is_multiple": {},
+      "kind": "field",
+      "label": "series_sort",
+      "name": "S\u00e9rie ordenada",
+      "rec_index": 24,
+      "search_terms": [
+        "series_sort"
+      ],
+      "table": null
+    },
+    "size": {
+      "column": null,
+      "datatype": "float",
+      "display": {},
+      "is_category": false,
+      "is_csp": false,
+      "is_custom": false,
+      "is_editable": true,
+      "is_multiple": {},
+      "kind": "field",
+      "label": "size",
+      "name": "Tamanho",
+      "rec_index": 4,
+      "search_terms": [
+        "size"
+      ],
+      "table": null
+    },
+    "sort": {
+      "column": null,
+      "datatype": "text",
+      "display": {},
+      "is_category": false,
+      "is_csp": false,
+      "is_custom": false,
+      "is_editable": true,
+      "is_multiple": {},
+      "kind": "field",
+      "label": "sort",
+      "name": "T\u00edtulo ordenado",
+      "rec_index": 11,
+      "search_terms": [
+        "title_sort"
+      ],
+      "table": null
+    },
+    "tags": {
+      "category_sort": "name",
+      "column": "name",
+      "datatype": "text",
+      "display": {},
+      "is_category": true,
+      "is_csp": false,
+      "is_custom": false,
+      "is_editable": true,
+      "is_multiple": {
+        "cache_to_list": ",",
+        "list_to_ui": ", ",
+        "ui_to_list": ","
+      },
+      "kind": "field",
+      "label": "tags",
+      "link_column": "tag",
+      "name": "Etiquetas",
+      "rec_index": 6,
+      "search_terms": [
+        "tags",
+        "tag"
+      ],
+      "table": "tags"
+    },
+    "timestamp": {
+      "column": null,
+      "datatype": "datetime",
+      "display": {
+        "date_format": "dd MMM yyyy"
+      },
+      "is_category": false,
+      "is_csp": false,
+      "is_custom": false,
+      "is_editable": true,
+      "is_multiple": {},
+      "kind": "field",
+      "label": "timestamp",
+      "name": "Data",
+      "rec_index": 3,
+      "search_terms": [
+        "date"
+      ],
+      "table": null
+    },
+    "title": {
+      "column": null,
+      "datatype": "text",
+      "display": {},
+      "is_category": false,
+      "is_csp": false,
+      "is_custom": false,
+      "is_editable": true,
+      "is_multiple": {},
+      "kind": "field",
+      "label": "title",
+      "name": "T\u00edtulo",
+      "rec_index": 1,
+      "search_terms": [
+        "title"
+      ],
+      "table": null
+    },
+    "uuid": {
+      "column": null,
+      "datatype": "text",
+      "display": {},
+      "is_category": false,
+      "is_csp": false,
+      "is_custom": false,
+      "is_editable": true,
+      "is_multiple": {},
+      "kind": "field",
+      "label": "uuid",
+      "name": null,
+      "rec_index": 16,
+      "search_terms": [
+        "uuid"
+      ],
+      "table": null
+    }
+  },
+  "book_display_fields": [
+    [
+      "title",
+      false
+    ],
+    [
+      "authors",
+      true
+    ],
+    [
+      "series",
+      true
+    ],
+    [
+      "identifiers",
+      true
+    ],
+    [
+      "tags",
+      true
+    ],
+    [
+      "formats",
+      true
+    ],
+    [
+      "path",
+      true
+    ],
+    [
+      "publisher",
+      false
+    ],
+    [
+      "rating",
+      false
+    ],
+    [
+      "author_sort",
+      false
+    ],
+    [
+      "sort",
+      false
+    ],
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "uuid",
+      false
+    ],
+    [
+      "comments",
+      true
+    ],
+    [
+      "id",
+      false
+    ],
+    [
+      "pubdate",
+      false
+    ],
+    [
+      "last_modified",
+      false
+    ],
+    [
+      "size",
+      false
+    ],
+    [
+      "languages",
+      false
+    ]
+  ],
+  "edit_metadata_custom_columns_to_display": [],
+  "qv_display_fields": [
+    [
+      "title",
+      true
+    ],
+    [
+      "authors",
+      true
+    ],
+    [
+      "series",
+      true
+    ],
+    [
+      "languages",
+      false
+    ],
+    [
+      "formats",
+      false
+    ],
+    [
+      "publisher",
+      false
+    ],
+    [
+      "rating",
+      false
+    ],
+    [
+      "tags",
+      false
+    ],
+    [
+      "identifiers",
+      false
+    ],
+    [
+      "author_sort",
+      false
+    ],
+    [
+      "id",
+      false
+    ],
+    [
+      "last_modified",
+      false
+    ],
+    [
+      "path",
+      false
+    ],
+    [
+      "pubdate",
+      false
+    ],
+    [
+      "sort",
+      false
+    ],
+    [
+      "size",
+      false
+    ],
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "uuid",
+      false
+    ]
+  ],
+  "column_color_rules": [],
+  "column_icon_rules": [],
+  "cover_grid_icon_rules": [],
+  "gui_view_history": [
+    [
+      63,
+      "Constituic\u0327a\u0303o da Mac\u0327onaria Brasileira - 1873"
+    ],
+    [
+      49,
+      "Rito Brasileiro  \u2013  Normas, ritual\u00edstica e estrutura"
+    ],
+    [
+      42,
+      "Os Desafios da Ma\u00e7onaria na Contemporaniedade"
+    ],
+    [
+      18,
+      "Principais Ritos Ma\u00e7onicos Praticados no Brasil"
+    ],
+    [
+      90,
+      "Origem e prim\u00f3rdios do REAA \u2013 de 1805 em diante"
+    ],
+    [
+      86,
+      "A ORIGEM DE ALGUNS S\u00cdMBOLOS E ALEGORIAS NO RITUAL DE APRENDIZ DO R.E.A.A."
+    ],
+    [
+      87,
+      "Calend\u00e1rio Judaico usado para o REAA"
+    ],
+    [
+      88,
+      "()"
+    ],
+    [
+      91,
+      "A\uf05c U\uf05c T\uf05c O\uf05c S\uf05c A\uf05c G\uf05c"
+    ],
+    [
+      93,
+      "O Segundo Grau do Simbolismo Maconico no REAA"
+    ],
+    [
+      94,
+      "feismo.com-praticas-do-reaa-pr 5ee52f077748ea263d7cd974dd2ae81f"
+    ],
+    [
+      95,
+      "Microsoft Word - List - Early Masonic Documents.doc"
+    ],
+    [
+      96,
+      "Contributos Para Uma Breve Est\u00f3ria do REAA"
+    ],
+    [
+      52,
+      "Rito Brasileiro - Filosofia e Liturgia"
+    ],
+    [
+      2,
+      "Esquin de Floyrac: O Fim do Templo - Vol 03"
+    ]
+  ],
+  "last_expired_trash_at": 1769282299.5600884,
+  "catalog-field-data-for-catalog_csv_xml": {
+    "fields": [
+      "title",
+      "authors",
+      "cover"
+    ],
+    "sort_order": {
+      "author_sort": 14,
+      "authors": 3,
+      "comments": 16,
+      "cover": 15,
+      "formats": 11,
+      "id": 1,
+      "identifiers": 18,
+      "isbn": 17,
+      "languages": 13,
+      "library_name": 19,
+      "ondevice": 0,
+      "pubdate": 12,
+      "publisher": 10,
+      "rating": 6,
+      "series": 8,
+      "series_index": 9,
+      "size": 5,
+      "tags": 7,
+      "timestamp": 4,
+      "title": 2,
+      "title_sort": 20,
+      "uuid": 21
+    }
+  }
+}

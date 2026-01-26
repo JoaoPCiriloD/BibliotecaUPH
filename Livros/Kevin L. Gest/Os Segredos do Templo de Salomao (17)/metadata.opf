@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">17</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">34afe8aa-d404-40ad-a5c0-7bd6ebddfe32</dc:identifier>
+        <dc:title>Os Segredos do Templo de Salomão</dc:title>
+        <dc:creator opf:file-as="Gest, Kevin L." opf:role="aut">Kevin L. Gest</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (8.16.2) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2014-06-15T03:00:00+00:00</dc:date>
+        <dc:description>&lt;p&gt;Esta obra é resultado de mais de dez anos de estudos, pesquisas e 
+viagens para uma investigação histórica do maçom Kevin L. Gest a 
+respeito dos segredos milenares do Templo de Salomão e sua relação com a
+ Maçonaria. Em sua busca, o autor descobriu que existe uma tradição de 
+que o nome Salomão foi traduzido pela primeira vez de forma alquímica, 
+ou seja, Sol Amon (Omon), em que logo se percebe a palavra Sol. Ele 
+explica que a palavra Amon tem várias interpretações; uma delas é “Sol 
+oculto”, o Sol que não pode mais ser visto quando a pessoa está 
+posicionada embaixo do horizonte ocidental. Conclui-se então que seria a
+ Lua, a luz predominante no céu após o pôr-do-sol. Assim sendo, o templo
+ de Sol-Amon seria o templo do Sol e da Lua. As recentes descobertas de 
+textos apócrifos, como os Manuscritos do Mar Morto, também lhe 
+suscitaram alguns questionamentos; percebeu, então, que precisava rever 
+as palavras usadas em partes importantes do texto bíblico convencional, e
+ não meramente aceitá-las como afirmações absolutas. Afinal, as 
+evidências científicas e arqueológicas e o desenvolvimento de novas 
+tecnologias, no final do século XX, possibilitam a capacidade de 
+reexaminar percepções e crenças a respeito do Templo de Salomão e 
+identificar com rigor quem foi realmente o rei Salomão. Aparentemente, 
+seu nome original era Jedidias, filho de Davi e Bate-Seba. Descubra 
+também os segredos do Templo de Salomão por meio da leitura deste livro.&lt;/p&gt;</dc:description>
+        <dc:publisher>Madras</dc:publisher>
+        <dc:identifier opf:scheme="MOBI-ASIN">176057c8-9cb0-4b01-a68d-ee5749224bf1</dc:identifier>
+        <dc:language>por</dc:language>
+        <meta name="calibre:timestamp" content="2025-12-28T20:17:36.708521+00:00"/>
+        <meta name="calibre:title_sort" content="Segredos do Templo de Salomão, Os"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Capa" href="cover.jpg"/>
+    </guide>
+</package>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">1</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">49c235cf-044e-4659-99c0-c724b6a56057</dc:identifier>
+        <dc:title>A Maçonaria na História</dc:title>
+        <dc:creator opf:file-as="Autores, Vários" opf:role="aut">Vários Autores</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (8.16.2) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2015-11-01T23:00:00+00:00</dc:date>
+        <dc:language>por</dc:language>
+        <meta name="calibre:timestamp" content="2025-12-28T20:16:53+00:00"/>
+        <meta name="calibre:title_sort" content="Maçonaria na História, A"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Capa" href="cover.jpg"/>
+    </guide>
+</package>

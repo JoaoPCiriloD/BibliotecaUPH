@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">78</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">ae29f5b5-05cd-4415-8856-ad6810147678</dc:identifier>
+        <dc:title>Manual masónico ó Retejador de todos los ritos de la masonería : al cual se ha añadido un calendario masónico</dc:title>
+        <dc:creator opf:file-as="Desconhecido" opf:role="aut">Desconhecido</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (8.16.2) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2024-06-11T13:06:36+00:00</dc:date>
+        <dc:language>spa</dc:language>
+        <dc:subject>Fondo Antiguo; Libros del Siglo XIX; Impresos del reinado de Fernando VII</dc:subject>
+        <dc:subject>https://archive.org/details/A224088</dc:subject>
+        <meta name="calibre:timestamp" content="2026-01-21T00:29:12+00:00"/>
+        <meta name="calibre:title_sort" content="Manual masónico ó Retejador de todos los ritos de la masonería : al cual se ha añadido un calendario masónico"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Capa" href="cover.jpg"/>
+    </guide>
+</package>

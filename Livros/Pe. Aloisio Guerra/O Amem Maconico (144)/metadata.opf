@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">144</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">659adec2-4672-4577-b9ab-78a53b72c9d9</dc:identifier>
+        <dc:title>O Amém Maçônico</dc:title>
+        <dc:creator opf:file-as="Guerra, Pe. Aloísio" opf:role="aut">Pe. Aloísio Guerra</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (8.16.2) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>0101-01-01T00:00:00+00:00</dc:date>
+        <dc:language>pt</dc:language>
+        <meta name="calibre:timestamp" content="2026-01-24T18:05:53.559474+00:00"/>
+        <meta name="calibre:title_sort" content="Amém Maçônico, O"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Capa" href="cover.jpg"/>
+    </guide>
+</package>

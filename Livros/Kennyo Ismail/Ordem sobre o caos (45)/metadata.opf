@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">45</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">4d401b53-4ebd-42c5-9db9-dfd05cb8cf0f</dc:identifier>
+        <dc:title>Ordem sobre o caos</dc:title>
+        <dc:creator opf:file-as="Ismail, Kennyo" opf:role="aut">Kennyo Ismail</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (8.16.2) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2020-03-08T03:00:00+00:00</dc:date>
+        <dc:description>&lt;div&gt;&lt;div style="text-align: justify;"&gt;Um tratado sobre história, funcionamento e ensinamentos dos 33 graus do REAA – Rito Escocês Antigo e Aceito – alicerçado nas principais obras nacionais e internacionais escritas sobre o tema nos últimos 200 anos.&lt;/div&gt;&lt;div style="text-align: justify;"&gt;Prefaciada pelo Soberano Grande Comendador do Supremo Conselho do Grau 33 do REAA da Maçonaria para a República Federativa do Brasil, Jorge Lins, a obra descreve a incrível história do REAA, seu desenvolvimento até chegar ao Brasil, como é seu funcionamento no país e no mundo, e então decodifica grau por grau, do 1 ao 33, cada lenda, principais símbolos, filosofia, teologia e princípios éticos e morais contidos, revelando as ligações ocultas entre eles e os objetivos a serem inculcados em cada grupo de graus.&lt;/div&gt;&lt;/div&gt;</dc:description>
+        <dc:publisher>No Esquadro</dc:publisher>
+        <dc:identifier opf:scheme="ISBN">9786581151003</dc:identifier>
+        <dc:identifier opf:scheme="MOBI-ASIN">B085Q3RVBT</dc:identifier>
+        <dc:language>por</dc:language>
+        <meta name="calibre:timestamp" content="2026-01-21T00:27:57+00:00"/>
+        <meta name="calibre:title_sort" content="Ordem sobre o caos"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Capa" href="cover.jpg"/>
+    </guide>
+</package>

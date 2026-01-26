@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">49</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">b21228a4-06b5-4f20-bd17-58e2bb3ab6cb</dc:identifier>
+        <dc:title>Rito Brasileiro  –  Normas, ritualística e estrutura</dc:title>
+        <dc:creator opf:file-as="Mota, Willian Felicio da" opf:role="aut">Willian Felicio da Mota</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (8.16.2) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2021-05-01T13:52:47+00:00</dc:date>
+        <dc:language>pt</dc:language>
+        <meta name="calibre:timestamp" content="2026-01-21T00:28:17+00:00"/>
+        <meta name="calibre:title_sort" content="Rito Brasileiro  –  Normas, ritualística e estrutura"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Capa" href="cover.jpg"/>
+    </guide>
+</package>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">81</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">d6e5f400-5d6a-47cb-b1f0-3eb19658790e</dc:identifier>
+        <dc:title>Esquin de Floyrac: O Fim do Templo</dc:title>
+        <dc:creator opf:file-as="Rodrix, Z." opf:role="aut">Z. Rodrix</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (8.16.2) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2007-01-30T04:00:00+00:00</dc:date>
+        <dc:description>&lt;p class="description"&gt;A Trilogia do Templo chega a seu final com um dos momentos mais terríveis da história da Humanidade: a destruição da Ordem do Templo pelo Reinado de França e pela Igreja de Roma. O violento conflito só se torna possível por haver um traidor na Ordem, e é desse homem a narrativa deste terceiro volume. Esquin de Floyrac: o fim do Templo. Aqui ele nos conta como se tornou sapateiro, pedreiro, Cavaleiro do Templo, espião, mendigo e finalmente traidor de seus irmãos, revelando-nos os verdadeiros motivos por trás de seus atos.&lt;/p&gt;</dc:description>
+        <dc:publisher>Record</dc:publisher>
+        <dc:identifier opf:scheme="MOBI-ASIN">9a663a5f-5053-4368-b424-8d80ea4ba8d0</dc:identifier>
+        <dc:language>por</dc:language>
+        <dc:subject>Romance</dc:subject>
+        <meta name="calibre:timestamp" content="2026-01-21T00:29:17+00:00"/>
+        <meta name="calibre:title_sort" content="Esquin de Floyrac: O Fim do Templo"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Capa" href="cover.jpg"/>
+    </guide>
+</package>

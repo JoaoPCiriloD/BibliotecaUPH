@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">52</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">d788ab71-1294-48d0-9664-13d58ac9ee51</dc:identifier>
+        <dc:title>Rito Brasileiro - Filosofia e Liturgia</dc:title>
+        <dc:creator opf:file-as="Braga, Juliano Coelho" opf:role="aut">Juliano Coelho Braga</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (8.16.2) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2020-09-12T12:03:40+00:00</dc:date>
+        <dc:language>pt</dc:language>
+        <meta name="calibre:timestamp" content="2026-01-21T00:28:23+00:00"/>
+        <meta name="calibre:title_sort" content="Rito Brasileiro - Filosofia e Liturgia"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Capa" href="cover.jpg"/>
+    </guide>
+</package>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">33</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">a9414701-f306-4be6-9321-4b829fb3903b</dc:identifier>
+        <dc:title>Autobiografia de um Iogue</dc:title>
+        <dc:creator opf:file-as="Desconhecido" opf:role="aut">Desconhecido</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (8.16.2) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>0101-01-01T00:00:00+00:00</dc:date>
+        <dc:description>&lt;div&gt;
+&lt;p&gt;Aclamado como um dos cem melhores livros espirituais do Século XX, o extraordinário relato da vida de Paramahansa Yogananda levará você a uma exploração inesquecível do mundo dos santos e iogues, da ciência e dos milagres, da morte e da ressurreição. Com humor inteligente e encantador e uma sabedoria profunda que conforma a alma, ele esclarece os segredos mais profundos da vida e do universo - abrindo nosso coração e mente para a alegria, a beleza e os potenciais espirituais ilimitados, intrínsecos à vida de todos os seres humanos. Esta edição completa - publicada exclusivamente pela Self-Realization Fellowship, a organização fundada pelo autor - é a única que reúne todas as modificações que ele mesmo desejou para a versão final do texto, inclusive o extenso material que ele acrescentou à edição original de 1946. &lt;/p&gt;&lt;/div&gt;</dc:description>
+        <dc:publisher>SELF-REALIZATION FEL</dc:publisher>
+        <dc:language>por</dc:language>
+        <meta name="calibre:series" content="epub"/>
+        <meta name="calibre:series_index" content="1133"/>
+        <meta name="calibre:timestamp" content="2025-12-28T20:18:10+00:00"/>
+        <meta name="calibre:title_sort" content="Autobiografia de um Iogue"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Capa" href="cover.jpg"/>
+    </guide>
+</package>

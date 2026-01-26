@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">150</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">2e7f5e0d-b012-4730-99ee-9f0295b9aac1</dc:identifier>
+        <dc:title>Ritual do Grau de Aprendiz Maçom</dc:title>
+        <dc:creator opf:file-as="Paraná, Grande Loja do" opf:role="aut">Grande Loja do Paraná</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (8.16.2) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>0101-01-01T00:00:00+00:00</dc:date>
+        <dc:language>pt</dc:language>
+        <meta name="calibre:timestamp" content="2026-01-24T18:17:47.564539+00:00"/>
+        <meta name="calibre:title_sort" content="Ritual do Grau de Aprendiz Maçom"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Capa" href="cover.jpg"/>
+    </guide>
+</package>

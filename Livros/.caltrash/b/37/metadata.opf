@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">37</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">17538444-7de4-4886-82a5-686d1f509635</dc:identifier>
+        <dc:title>Ars quatuor coronatorum : being the transactions of the Lodge Quatuor Coronati, no. 2076</dc:title>
+        <dc:creator opf:file-as="Freemasons. Quatuor Coronati Lodge, no. 2076, London" opf:role="aut">Freemasons. Quatuor Coronati Lodge, no. 2076, London</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (8.16.2) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2013-02-13T07:37:10+00:00</dc:date>
+        <dc:language>pt</dc:language>
+        <dc:subject>http://archive.org/details/arsquatuorcorona16free</dc:subject>
+        <meta name="calibre:timestamp" content="2025-12-28T20:18:19+00:00"/>
+        <meta name="calibre:title_sort" content="Ars quatuor coronatorum : being the transactions of the Lodge Quatuor Coronati, no. 2076"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Capa" href="cover.jpg"/>
+    </guide>
+</package>

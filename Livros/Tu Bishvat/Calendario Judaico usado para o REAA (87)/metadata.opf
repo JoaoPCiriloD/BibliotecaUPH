@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">87</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">5cd9e69f-1ce0-4d7b-8ffc-d0632f27cb44</dc:identifier>
+        <dc:title>Calendário Judaico usado para o REAA</dc:title>
+        <dc:creator opf:file-as="Bishvat, Tu" opf:role="aut">Tu Bishvat</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (8.16.2) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>0101-01-01T00:00:00+00:00</dc:date>
+        <dc:language>por</dc:language>
+        <meta name="calibre:timestamp" content="2026-01-22T23:37:44.223790+00:00"/>
+        <meta name="calibre:title_sort" content="Calendário Judaico usado para o REAA"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Capa" href="cover.jpg"/>
+    </guide>
+</package>

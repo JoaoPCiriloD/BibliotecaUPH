@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">71</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">dfa795e7-1615-49db-82ac-acd8d77ca8c3</dc:identifier>
+        <dc:title>Illustrations or Mansonry</dc:title>
+        <dc:creator opf:file-as="Preston, William" opf:role="aut">William Preston</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (8.16.2) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>0101-01-01T00:00:00+00:00</dc:date>
+        <dc:language>pt</dc:language>
+        <dc:subject>Robotechlegacy</dc:subject>
+        <dc:subject>freemason</dc:subject>
+        <dc:subject>masonic</dc:subject>
+        <meta name="calibre:timestamp" content="2026-01-21T00:28:58+00:00"/>
+        <meta name="calibre:title_sort" content="Illustrations or Mansonry"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Capa" href="cover.jpg"/>
+    </guide>
+</package>

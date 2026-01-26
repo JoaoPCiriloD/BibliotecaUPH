@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">21</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">1ad293e0-e27c-424e-b867-85f3a1a1e0d3</dc:identifier>
+        <dc:title>O Livro de Ouro de Saint Germain: A Sagrada Alquimia do Eu Sou</dc:title>
+        <dc:creator opf:file-as="Germain, Saint" opf:role="aut">Saint Germain</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (8.16.2) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2019-08-11T03:00:00+00:00</dc:date>
+        <dc:identifier opf:scheme="MOBI-ASIN">B07WF93N1F</dc:identifier>
+        <dc:language>por</dc:language>
+        <meta name="calibre:timestamp" content="2025-12-28T20:17:44.753351+00:00"/>
+        <meta name="calibre:title_sort" content="Livro de Ouro de Saint Germain: A Sagrada Alquimia do Eu Sou, O"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Capa" href="cover.jpg"/>
+    </guide>
+</package>

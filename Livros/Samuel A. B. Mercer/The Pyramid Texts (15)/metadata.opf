@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">15</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">a407a96b-7104-4348-a3ff-2d3b46571906</dc:identifier>
+        <dc:title>The Pyramid Texts</dc:title>
+        <dc:creator opf:file-as="Mercer, Samuel A. B." opf:role="aut">Samuel A. B. Mercer</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (8.16.2) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2023-08-04T06:14:20+00:00</dc:date>
+        <dc:description>Ancient Egypt</dc:description>
+        <dc:language>pt</dc:language>
+        <meta name="calibre:timestamp" content="2025-12-28T20:17:32+00:00"/>
+        <meta name="calibre:title_sort" content="The Pyramid Texts"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Capa" href="cover.jpg"/>
+    </guide>
+</package>
