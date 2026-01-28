@@ -11,6 +11,7 @@
     <title>Biblioteca Maçônica - Catálogo Digital</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -31,7 +32,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#home">
+                        <a class="nav-link" href="#home">
                             <i class="bi bi-house-door me-1"></i>Início
                         </a>
                     </li>
@@ -51,11 +52,6 @@
                         </a>
                     </li>
                 </ul>
-                <div class="d-flex ms-lg-3">
-                    <button class="btn btn-sm btn-outline-light" id="themeToggle">
-                        <i class="bi bi-moon-stars"></i>
-                    </button>
-                </div>
             </div>
         </div>
     </nav>
@@ -125,7 +121,6 @@
                 </div>
                 <div class="col-lg-2">
                     <select id="sortFilter" class="form-select form-select-lg shadow-sm">
-                        <option value="">↕️ Ordenar</option>
                         <option value="titulo">Título (A-Z)</option>
                         <option value="autor">Autor (A-Z)</option>
                     </select>
